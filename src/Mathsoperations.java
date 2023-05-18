@@ -5,7 +5,7 @@ public class Mathsoperations {
         System.out.println("x : " +x);
         System.out.println("y :" +y);
         System.out.println("msg " +args[2]);
-        int result = 0;
+        int result = 123;
         result = x + y;
         System.out.println("Addition = " + result);
         result = x - y;
@@ -16,5 +16,6 @@ public class Mathsoperations {
         System.out.println("Division=" + result);
         result = x % y;
         System.out.println("Mod=" + result);
+
     }
 }
